@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "path",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Path Boost",
+  "description": "Paths give a small speed boost while moving over them",
   "authors": [
-    "Me!"
+    "product17"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -14,16 +14,16 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/path/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "io.sandbox.path.Main"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "path.mixins.json"
   ],
 
   "depends": {
