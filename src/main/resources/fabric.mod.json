@@ -3,10 +3,10 @@
   "id": "path",
   "version": "${version}",
 
-  "name": "Path Boost",
+  "name": "Sandbox Path Boost",
   "description": "Paths give a small speed boost while moving over them",
   "authors": [
-    "product17"
+    "Brent Crocker"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
